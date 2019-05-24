@@ -6,7 +6,7 @@ GPU implementation of the variant of PatchMatch Stereo framework for the paper t
 Wei Bao, Xu Xiao, Yuhua Xu, and Xiaohu Zhang, "Reference image based phase unwrapping framework for a structured light system," Optics Express 26, 29588-29599 (2018)
 
 ## Citation
-'''
+```
 @article{bao2018reference,
   title={Reference image based phase unwrapping framework for a structured light system},
   author={Bao, Wei and Xiao, Xu and Xu, Yuhua and Zhang, Xiaohu},
@@ -17,7 +17,7 @@ Wei Bao, Xu Xiao, Yuhua Xu, and Xiaohu Zhang, "Reference image based phase unwra
   year={2018},
   publisher={Optical Society of America}
 }
-'''
+```
 
 https://doi.org/10.1364/OE.26.029588
 ## Contact

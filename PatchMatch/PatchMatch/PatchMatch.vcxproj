@@ -74,7 +74,7 @@ copy "$(CudaToolkitBinDir)\cudart*.dll" "$(OutDir)"</Command>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <SubSystem>Console</SubSystem>
-      <AdditionalDependencies>cudart.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>D:\setup\opencv-2.4.13\build64\lib\Release\opencv_videostab2413.lib;D:\setup\opencv-2.4.13\build64\lib\Release\opencv_ts2413.lib;D:\setup\opencv-2.4.13\build64\lib\Release\opencv_superres2413.lib;D:\setup\opencv-2.4.13\build64\lib\Release\opencv_stitching2413.lib;D:\setup\opencv-2.4.13\build64\lib\Release\opencv_contrib2413.lib;D:\setup\opencv-2.4.13\build64\lib\Release\opencv_nonfree2413.lib;D:\setup\opencv-2.4.13\build64\lib\Release\opencv_ocl2413.lib;D:\setup\opencv-2.4.13\build64\lib\Release\opencv_gpu2413.lib;D:\setup\opencv-2.4.13\build64\lib\Release\opencv_photo2413.lib;D:\setup\opencv-2.4.13\build64\lib\Release\opencv_objdetect2413.lib;D:\setup\opencv-2.4.13\build64\lib\Release\opencv_legacy2413.lib;D:\setup\opencv-2.4.13\build64\lib\Release\opencv_video2413.lib;D:\setup\opencv-2.4.13\build64\lib\Release\opencv_ml2413.lib;D:\setup\opencv-2.4.13\build64\lib\Release\opencv_calib3d2413.lib;D:\setup\opencv-2.4.13\build64\lib\Release\opencv_features2d2413.lib;D:\setup\opencv-2.4.13\build64\lib\Release\opencv_highgui2413.lib;D:\setup\opencv-2.4.13\build64\lib\Release\opencv_imgproc2413.lib;D:\setup\opencv-2.4.13\build64\lib\Release\opencv_flann2413.lib;D:\setup\opencv-2.4.13\build64\lib\Release\opencv_core2413.lib;cudart.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>echo copy "$(CudaToolkitBinDir)\cudart*.dll" "$(OutDir)"
@@ -82,6 +82,7 @@ copy "$(CudaToolkitBinDir)\cudart*.dll" "$(OutDir)"</Command>
     </PostBuildEvent>
     <CudaCompile>
       <TargetMachinePlatform>64</TargetMachinePlatform>
+      <Include>D:\setup\opencv-2.4.13\build64;D:\setup\opencv-2.4.13\include;D:\setup\opencv-2.4.13\include\opencv;D:\setup\opencv-2.4.13\modules\core\include;D:\setup\opencv-2.4.13\modules\flann\include;D:\setup\opencv-2.4.13\modules\imgproc\include;D:\setup\opencv-2.4.13\modules\highgui\include;D:\setup\opencv-2.4.13\modules\features2d\include;D:\setup\opencv-2.4.13\modules\calib3d\include;D:\setup\opencv-2.4.13\modules\ml\include;D:\setup\opencv-2.4.13\modules\video\include;D:\setup\opencv-2.4.13\modules\legacy\include;D:\setup\opencv-2.4.13\modules\objdetect\include;D:\setup\opencv-2.4.13\modules\photo\include;D:\setup\opencv-2.4.13\modules\gpu\include;D:\setup\opencv-2.4.13\modules\ocl\include;D:\setup\opencv-2.4.13\modules\nonfree\include;D:\setup\opencv-2.4.13\modules\contrib\include;D:\setup\opencv-2.4.13\modules\stitching\include;D:\setup\opencv-2.4.13\modules\superres\include;D:\setup\opencv-2.4.13\modules\ts\include;D:\setup\opencv-2.4.13\modules\videostab\include;%(AdditionalIncludeDirectories)</Include>
     </CudaCompile>
   </ItemDefinitionGroup>
   <ItemGroup>

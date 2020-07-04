@@ -1,66 +1,6 @@
-﻿  Compiling CUDA source file kernel.cu...
-  
-  C:\Users\xiao xu\Desktop\PhaseUnwrapping\PatchMatch\PatchMatch>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o x64\Release\kernel.cu.obj "C:\Users\xiao xu\Desktop\PhaseUnwrapping\PatchMatch\PatchMatch\kernel.cu" 
-c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(838): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(1772): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(2628): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(3477): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(4417): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(5319): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(6229): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(7104): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(7914): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt/device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt/device_functions.h(776): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt/device_functions.h(1636): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\sm_20_intrinsics.h(925): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-C:/Users/xiao xu/Desktop/PhaseUnwrapping/PatchMatch/PatchMatch/kernel.cu(401): warning : variable "offset" was declared but never referenced
-C:/Users/xiao xu/Desktop/PhaseUnwrapping/PatchMatch/PatchMatch/kernel.cu(403): warning : variable "halfSize" was declared but never referenced
-C:/Users/xiao xu/Desktop/PhaseUnwrapping/PatchMatch/PatchMatch/kernel.cu(782): warning : variable "pi" was declared but never referenced
-C:/Users/xiao xu/Desktop/PhaseUnwrapping/PatchMatch/PatchMatch/kernel.cu(791): warning : variable "diffT" was declared but never referenced
-c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(838): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(1772): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(2628): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(3477): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(4417): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(5319): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(6229): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(7104): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(7914): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt/device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt/device_functions.h(776): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt/device_functions.h(1636): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\sm_20_intrinsics.h(925): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-C:/Users/xiao xu/Desktop/PhaseUnwrapping/PatchMatch/PatchMatch/kernel.cu(401): warning : variable "offset" was declared but never referenced
-C:/Users/xiao xu/Desktop/PhaseUnwrapping/PatchMatch/PatchMatch/kernel.cu(403): warning : variable "halfSize" was declared but never referenced
-C:/Users/xiao xu/Desktop/PhaseUnwrapping/PatchMatch/PatchMatch/kernel.cu(782): warning : variable "pi" was declared but never referenced
-C:/Users/xiao xu/Desktop/PhaseUnwrapping/PatchMatch/PatchMatch/kernel.cu(791): warning : variable "diffT" was declared but never referenced
-  kernel.cu
-C:/Users/xiao xu/Desktop/PhaseUnwrapping/PatchMatch/PatchMatch/kernel.cu(801): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
-C:/Users/xiao xu/Desktop/PhaseUnwrapping/PatchMatch/PatchMatch/kernel.cu(895): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
-C:/Users/xiao xu/Desktop/PhaseUnwrapping/PatchMatch/PatchMatch/kernel.cu(899): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
-C:/Users/xiao xu/Desktop/PhaseUnwrapping/PatchMatch/PatchMatch/kernel.cu(1012): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
-C:/Users/xiao xu/Desktop/PhaseUnwrapping/PatchMatch/PatchMatch/kernel.cu(1013): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
-c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(838): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(1772): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(2628): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(3477): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(4417): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(5319): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(6229): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(7104): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(7914): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-  LINK : 已指定 /LTCG，但不需要生成代码；从链接命令行中移除 /LTCG 以提高链接器性能
-  PatchMatch.vcxproj -> C:\Users\xiao xu\Desktop\PhaseUnwrapping\PatchMatch\x64\Release\PatchMatch.exe
-  PatchMatch.vcxproj -> C:\Users\xiao xu\Desktop\PhaseUnwrapping\PatchMatch\x64\Release\PatchMatch.pdb (Full PDB)
-  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart*.dll" "C:\Users\xiao xu\Desktop\PhaseUnwrapping\PatchMatch\x64\Release\"
+﻿  PatchMatch.vcxproj -> E:\Code\PhaseUnwrappingGPU\PhaseUnwrapping\PatchMatch\x64\Release\PatchMatch.exe
+  PatchMatch.vcxproj -> E:\Code\PhaseUnwrappingGPU\PhaseUnwrapping\PatchMatch\x64\Release\PatchMatch.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart*.dll" "E:\Code\PhaseUnwrappingGPU\PhaseUnwrapping\PatchMatch\x64\Release\"
   C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart32_90.dll
   C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart64_90.dll
   已复制         2 个文件。

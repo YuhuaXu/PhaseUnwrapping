@@ -3,6 +3,12 @@ Source Code for Reference image based phase unwrapping framework for a structure
 
 GPU implementation of the variant of PatchMatch Stereo framework for the paper titled "Reference image based phase unwrapping framework for a structured light system".
 
+Compilation environment for testing: VS2015, cuda9.0, opencv-2.4.13
+
+![phase unwrapping pipeline](pic/fig1.png)
+
+![phase unwrapping pipeline](pic/example.png)
+
 Wei Bao, Xu Xiao, Yuhua Xu, and Xiaohu Zhang, "Reference image based phase unwrapping framework for a structured light system," Optics Express 26, 29588-29599 (2018).
 
 https://www.osapublishing.org/oe/abstract.cfm?uri=oe-26-22-29588
